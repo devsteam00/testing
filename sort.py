@@ -5,10 +5,15 @@ print("The sorted words are:")
 vowels = 'aeiou'
 ip_str = 'Hello, have you tried our tutorial section yet?'
 ip_str = ip_str.casefold()
-count = {}.fromkeys(vowels,0)
-for char in ip_str:
-   if char in count:
-       count[char] += 1
+X = [[12,7],
+    [4 ,5],
+    [3 ,8]]
+result = [[0,0,0],
+         [0,0,0]]
+for i in range(len(X)):
+   for j in range(len(X[0])):
+       result[j][i] = X[i][j]
+for r in result:
+   print(r)
 
-print(count)
 
