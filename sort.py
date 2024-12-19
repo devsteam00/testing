@@ -33,3 +33,4 @@ def factorial(x):
 num = 7
 result = factorial(num)
 print("The factorial of", num, "is", result)
+print("The factorial of", num, "is", result)
