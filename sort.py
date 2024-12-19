@@ -33,7 +33,6 @@ def factorial(x):
 num = 7
 result = factorial(num)
 print("The factorial of", num, "is", result)
-num = float(input("Enter a number: "))
 if num > 0:
    print("Positive number")
 elif num == 0:
