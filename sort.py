@@ -22,9 +22,14 @@ new_list = old_list
 
 new_list[2][2] = 9
 
-print('Old List:', old_list)
-print('ID of Old List:', id(old_list))
+def factorial(x):
+    """This is a recursive function
+    to find the factorial of an integer"""
 
-print('New List:', new_list)
-print('ID of New List:', id(new_list))
-
+    if x == 1 or x == 0:
+        return 1
+    else:
+        return (x * factorial(x-1))
+num = 7
+result = factorial(num)
+print("The factorial of", num, "is", result)
