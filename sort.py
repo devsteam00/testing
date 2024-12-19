@@ -24,7 +24,7 @@ new_list[2][2] = 9
 
 def factorial(x):
     """This is a recursive function
-    to find the factorial of an integer"""
+    to find the factorial of an integer""a"
 
     if x == 1 or x == 0:
         return 1
@@ -33,4 +33,11 @@ def factorial(x):
 num = 7
 result = factorial(num)
 print("The factorial of", num, "is", result)
-print("The factorial of", num, "is", result)
+num = float(input("Enter a number: "))
+if num > 0:
+   print("Positive number")
+elif num == 0:
+   print("Zero")
+else:
+   print("Negative number")
+
